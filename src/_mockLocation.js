@@ -7,12 +7,12 @@ const getLocation = increment => {
         timestamp: 1587459143,
         coords: {
             speed: 0,
-            heading: 0,
+            heading: 224,
             accuracy: 5,
             altitudeAccuracy: 5,
             altitude: 5,
             longitude: 49.066888 + increment * tenMetersWithDegrees,
-            latitude: 55.836998+ increment * tenMetersWithDegrees,
+            latitude: 55.836998 +  increment * tenMetersWithDegrees,
         }
     };
 };
