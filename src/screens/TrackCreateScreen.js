@@ -8,6 +8,7 @@ import { Text } from "react-native-elements";
 import {Context as LocationContext} from '../context/LocationContext';
 import useLocation from '../hooks/useLocation';
 import TrackForm from '../components/TrackForm';
+import {MaterialIcons} from '@expo/vector-icons';
 
 
 const TrackCreateScreen = ({ isFocused }) => {
@@ -28,6 +29,11 @@ const TrackCreateScreen = ({ isFocused }) => {
 
     
     ) 
+};
+
+TrackCreateScreen.navigationOptions ={
+    title: 'Add Track',
+    tabBarIcon: <MaterialIcons name="add-location" size ={20}/>
 };
 
 const styles = StyleSheet.create({});
